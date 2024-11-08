@@ -1,0 +1,14 @@
+.topnav {
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+a {
+    background-color: gray;
+    display: inline-block;
+    padding: 2em;
+    
+}
