@@ -16,16 +16,27 @@ a {
     width: 100%;
 }
 
-.flex-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
+.one {
+    background-color: lightgray;
+    height: 400px;
+}
+
+.two {
+    background-color: lightgray;
+    height: 400px;
+}
+
+.three {
+    background-color: lightgray;
+    height: 400px;
+}
 .row2 {
     display: flex;
     flex-direction: row;
