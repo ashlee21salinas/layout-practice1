@@ -20,17 +20,71 @@ a {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+.green {
+    color: green;
+    font-size: 2vh;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.blue {
+    color: blue;
+    font-size: 2vh;
+}
+
+.brown {
+    color: brown;
+    font-size: 2vh;
+}
+
+.type2 {
+    background-color: green;
+    width: 45%;
+    font-size: 2vh;
+    color: white;
+    height: 5vh;
+    border-style: none;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.red {
+    background-color: red;
+    width: 45%;
+    font-size: 2vh;
+    color: white;
+    height: 5vh;
+    border-style: none;
+    margin-left: 30%;
+    border-radius: 1rem;
+}
+
+.blue2 {
+    background-color: blue;
+    width: 45%;
+    font-size: 2vh;
+    color: white;
+    height: 5vh;
+    border-style: none;
+    margin-left: 30%;
+    border-radius: 1rem;
+}
 .one {
     background-color: lightgray;
     height: 400px;
+    margin-right: 5%;
 }
 
 .two {
     background-color: lightgray;
     height: 400px;
+    margin-right: 5%;
 }
 
 .three {
@@ -40,9 +94,22 @@ a {
 .row2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;  
+    justify-content: center;  
 }
+
+.four {
+    background-color: lightgray;
+    height: 400px;
+    margin-right: 8.5%;
+    margin-top: 5%;
+}
+
+.five {
+    background-color: lightgray;
+    height: 400px;
+    margin-top: 5%;
+}
+
 
 .row3 {
     display: flex;
