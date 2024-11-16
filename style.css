@@ -2,7 +2,7 @@
     background-color: darkgray;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 3em;
 }
 
@@ -20,7 +20,26 @@ a {
 }
 
 .hero {
-    width: 100%;
+    background-image: url(/img/img11.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.time {
+    font-size: 5vh;
+    color: white;
+}
+
+.here {
+    font-size: 3vh;
+    margin-top: -2%;
+    color: white;
 }
 
 
