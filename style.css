@@ -20,13 +20,24 @@ a {
 }
 
 .hero {
-    background-image: url(/img/img11.jpg);
-    height: 60vh;
+    background-image: url(img/img11.jpg);
+    height: 100vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+.open {
+    font-size: 10vh;
+    color: white;
+}
+
+.under {
+    color: white;
+    font-size: 3vh;
+    margin-top: -50;
 }
 
 
@@ -47,6 +58,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 5%;
 }
 
 .green {
@@ -116,18 +128,19 @@ p {
 .one {
     background-color: #D9D9D9;
     height: 400px;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .two {
     background-color: #D9D9D9;
     height: 400px;
-    margin-right: 5%;
+    
 }
 
 .three {
     background-color: #D9D9D9;
     height: 400px;
+    margin-left: 2%;
 }
 .row2 {
     display: flex;
@@ -136,49 +149,110 @@ p {
 }
 
 .four {
-    background-color: #D9D9D9;
+    width: 80vh;
     height: 400px;
-    margin-right: 8.5%;
     margin-top: 5%;
+    margin-right: 5%;
 }
 
 .five {
-    background-color: #D9D9D9;
+    margin-left: 2%;
     height: 400px;
     margin-top: 5%;
+    width: 90vh;
 }
 
 .services {
+   background-image: url(img/img13.jpg);
+   height: 40vh;
+   background-repeat: no-repeat;
    display: flex;
    flex-direction: column;
     align-items: center;
     justify-content: center;
-   background-image: url(img/img13.jpg);
-   height: 30vh;
-   background-repeat: no-repeat;
    margin-top: 5%;
 }
 
 .big {
-    font-size: 4vh;
+    font-size: 5vh;
     color: white;
 }
 
 .p2 {
     color: white;
-    font-size: 2vh
+    font-size: 3vh;
+    margin-top: -3%;
 }
 
 .row3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 5%;
+}
+
+.i1 {
+    height: 40vh;
+    width: 35vh;
+}
+
+.i2 {
+    height: 40vh;
+    width: 35vh;
+}
+
+.i3 {
+    height: 40vh;
+    width: 35vh;
+}
+.i4 {
+     height: 40vh;
+    width: 35vh;
 }
 
 
+.first {
+    background-color: #D9D9D9;
+}
 
+.second {
+    background-color: #D9D9D9;
+}
 
+.third {
+    background-color: #D9D9D9;
+}
 
+.fourth {
+    background-color: #D9D9D9;
+}
 
+.center {
+    text-align: center;
+    font-size: 3vh;
+}
 
+.button2 {
+    margin-left: 35%;
+    width: 13vh;
+    height: 7vh;
+    border-radius: 1em;
+}
 
+.button3 {
+    margin-left: 35%;
+    width: 13vh;
+    height: 7vh;
+    border-radius: 1em;
+}
+
+.first {
+  margin-left: 20%;
+}
+.second {
+    
+}
+
+.third {
+    margin-right: 10%;
+}
