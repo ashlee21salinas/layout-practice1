@@ -129,18 +129,23 @@ p {
     background-color: #D9D9D9;
     height: 400px;
     margin-right: 2%;
+    width: 360px;
+    height: 80vh;
 }
 
 .two {
     background-color: #D9D9D9;
     height: 400px;
-    
+    width: 360px;
+    height: 80vh;
 }
 
 .three {
     background-color: #D9D9D9;
     height: 400px;
     margin-left: 2%;
+    width: 360px;
+    height: 80vh;
 }
 .row2 {
     display: flex;
@@ -153,10 +158,12 @@ p {
     margin-right: 1.5%;
     background-color: #D9D9D9;
     height: 60vh;
+    width: 40.9vw;
 }
 
 .five {
     background-color: #D9D9D9;
+    width: 40.91vw;
 }
 
 
@@ -212,20 +219,25 @@ p {
 .first {
     background-color: #D9D9D9;
     margin-right: 2%;
+    height: 80vh;
+    width: 40vh;
 }
 
 .second {
     background-color: #D9D9D9;
     margin-right: 2%;
+    width: 40vh;
 }
 
 .third {
     background-color: #D9D9D9;
     margin-right: 2%;
+    width: 40vh;
 }
 
 .fourth {
     background-color: #D9D9D9;
+    width: 40vh;
 }
 
 .center {
@@ -269,10 +281,73 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 5%;
+    background-image: url(img/img14.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.list {
+    margin-right: 27%;
+}
+
+.messagebot {
+    margin-left: 23%;
+    margin-top: -10.8%;
+    background-color:#D9D9D9;
+    width: 280px;
+    height: 129px;
+}
+
+.text2 {
+    background-color: #D9D9D9;
+    width: 562px;
+    height: 100px;
+}
+
+.t1 {
+    background-color: #D9D9D9;
+    width: 210px;
+    padding: 5px;
+}
+
+.t2 {
+    background-color: #D9D9D9;
+    width: 210px;
+    margin-top: 10%;
+    padding: 5px;
+    
+}
+
+.t3 {
+    background-color: #D9D9D9;
+    width: 210px;
+    margin-top: 10%;
+    padding: 5px;
+}
+
+.buttonbot {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.button4 {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 1rem;
+}
+
+h3 {
+    color: white;
+    font-size: 5vh;
 }
 
 ul {
     list-style: none;
 }
+
+
 
