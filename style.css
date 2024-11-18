@@ -19,6 +19,8 @@ a {
     text-align: center;
 }
 
+
+
 .hero {
     background-image: url(img/img11.jpg);
     height: 100vh;
@@ -63,7 +65,7 @@ a {
 
 .green {
     color: green;
-    font-size: 2vh;
+    font-size: 4vh;
     margin-left: 20px;
 }
 
@@ -73,35 +75,36 @@ p {
 
 .blue {
     color: blue;
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
 .brown {
     color: brown;
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
 .type2 {
     background-color: green;
     width: 45%;
-    font-size: 2vh;
+    font-size: 3vh;
     color: white;
-    height: 5vh;
+    height: 8vh;
     border-style: none;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 1em;
     margin-left: 30%;
 }
 
 .red {
     background-color: red;
     width: 45%;
-    font-size: 2vh;
+    font-size: 3vh;
     color: white;
-    height: 5vh;
+    height: 8vh;
     border-style: none;
+    text-align: center;
+    border-radius: 1em;
     margin-left: 30%;
-    border-radius: 1rem;
 }
 
 .type5 {
@@ -118,12 +121,13 @@ p {
 .blue2 {
     background-color: blue;
     width: 45%;
-    font-size: 2vh;
+    font-size: 3vh;
     color: white;
-    height: 5vh;
+    height: 8vh;
     border-style: none;
+    text-align: center;
+    border-radius: 1em;
     margin-left: 30%;
-    border-radius: 1rem;
 }
 .one {
     background-color: #D9D9D9;
@@ -160,6 +164,7 @@ p {
     height: 60vh;
     width: 40.9vw;
 }
+
 
 .five {
     background-color: #D9D9D9;
@@ -219,7 +224,7 @@ p {
 .first {
     background-color: #D9D9D9;
     margin-right: 2%;
-    height: 80vh;
+    height: 75vh;
     width: 40vh;
 }
 
@@ -264,6 +269,15 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
+    width: 30vw;
+    margin-left: 34.5%;
+
+}
+
+.button14 {
+    margin-left: 1.5%;
+    height: 30px;
+    margin-top: 2%;
 }
 
 .bigcolumn {
@@ -274,7 +288,7 @@ p {
 }
 
 .big3 {
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 
 .contact {
